@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 100%;
+}
+
+#container{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+nav{
+    background-color: blue;
+    display: flex;
+    flex-grow: 1;
+}
+
+#contenu{
+    display: flex;
+    flex-grow:5;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    background-color: deepskyblue;
+    min-height: 20vh;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 10;
+    width: 250px;
+    background-color: darkmagenta;
+}
+
+aside{
+    display: flex;
+    background-color: darkred;
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+#test{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+footer{
+    background-color: chocolate;
+    display: flex; 
+    min-height: 20vh;
+}
+
+
+
+
+
+
+
